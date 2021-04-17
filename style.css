@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    --orange: #f3703e;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/***************
+*****HEADER*****
+****************/
+
+#logo{
+    width: 220px;
+    /* float: left; */
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 30px 20px;
+    display: inline-block;
+}
+
+nav ul li:last-child{
+    margin-right: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+nav button{
+    background-color: var(--orange);
+    padding: 10px 20px;
+    border: none;
+}
+
+header{
+    background-image: url(img/header.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.naslovi{
+    padding: 150px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+}
+
+h4{
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
+}
+
+/***********************
+****WHITE CONTAINTER****
+***********************/
+
+article{
+    margin: auto;
+    width: 70%;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-decoration: underline overline;
+}
+
+article p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 30px;
+    border: 12px dashed black;
+    margin-bottom: 30px;
+}
+
+
+/***************
+*****FOOTER*****
+****************/
+
+footer{
+    background-color: var(--orange);
+    padding: 50px;
+    margin-top: 70px;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover {
+    color: #3a3a3c;
+}
